@@ -16,4 +16,19 @@ Ce référé au ``application.properties`` pour ce connecter à l'utilisateur co
 > Api/snowloc/src/main/resources/application.properties
 ```
 
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+## Lancement du projet Front App
+
+Lancer un invite de commande depuis le dossier ``> SnowLoc/App``
+
+S'assurer d'avoir ``npm`` d'installer
+```
+> npm install
+```
+
+Lancer du serveur sur ``http://localhost:5173/`` avec vite
+
+```
+npm run dev
+```
+
+GOULT Dylan Master ESI 1 JavaSpringProject
