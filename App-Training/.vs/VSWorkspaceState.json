@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\plugins",
+    "\\src\\router",
+    "\\src\\services",
+    "\\src\\views"
+  ],
+  "SelectedNode": "\\.env.debug",
+  "PreviewInSolutionExplorer": false
+}
