@@ -4,6 +4,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-app-bar-title>{{ title }}</v-app-bar-title>
       <v-spacer />
+      {{ $route.name }}
       <app-bar-menu-component />
       <v-progress-linear
         :active="loading"

@@ -30,6 +30,7 @@ parserOptions:
   project:
     - ./tsconfig.json
 rules:
+  max-len: off
   new-cap: off
   no-invalid-this: off
   no-unused-vars: warn
@@ -42,9 +43,9 @@ rules:
   jsdoc/require-returns-description: off
   jsdoc/require-returns-type: off
   jsdoc/require-returns: off
-  tsdoc/syntax: warn
+  tsdoc/syntax: off
   vue/html-self-closing:
-    - error
+    - off
     - html:
         void: always
   vue/multi-word-component-names: warn

@@ -25,21 +25,17 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Home',
-    redirect: {name: 'ProductrHomeView'},
     component: () => import('@/views/HomeView.vue'),
+  },
+  {
+    path: '/product',
+    name: 'ProductHomeView',
+    component: () => import('@/components/product/ProductCard.vue'),
     children: [
       {
         path: '',
-        name: 'ProductrHomeView',
-        component: () => import('@/components/product/ProductCard.vue'),
-        // redirect: {name: 'ProductrTable'},
-        // children: [
-        //   {
-        //     path: '',
-        //     name: 'ProductrTable',
-        //     component: () => import('@/components/product/ProductTable.vue')
-        //   },
-        // ],
+        name: 'ProductTable',
+        component: () => import('@/components/product/ProductTable.vue'),
       },
     ],
   },
