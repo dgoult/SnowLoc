@@ -13,9 +13,8 @@
       </v-row> -->
       <v-row justify="center">
         <v-col
-          align-self="start"
           cols="12"
-          md="2"
+          md="3"
         >
           <v-card>
             <v-card-text>
@@ -23,11 +22,16 @@
                 aspect-ratio="1"
               >
                 <router-link :to="GoToProduct">
-                  <svg
-                    alt="cable-car-solid.svg"
-                    src="@/assets/cable-car-solid.svg"
-                  ></svg>
+                  <img
+                    alt="product"
+                    src="@/assets/product.png"
+                    width="200"
+                    height="200"
+                  />
                 </router-link>
+                <h1 class="mt-2">
+                  Matériel
+                </h1>
               </v-responsive>
             </v-card-text>
           </v-card>
