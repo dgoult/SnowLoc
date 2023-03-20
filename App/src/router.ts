@@ -29,13 +29,55 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/product',
-    name: 'ProductHomeView',
-    component: () => import('@/components/product/ProductCard.vue'),
+    name: 'ProductView',
+    redirect: {name: 'ProductCard'},
+    component: () => import('@/views/ProductHomeView.vue'),
     children: [
       {
         path: '',
-        name: 'ProductTable',
-        component: () => import('@/components/product/ProductTable.vue'),
+        name: 'ProductCard',
+        component: () => import('@/components/product/ProductCard.vue'),
+        redirect: {name: 'ProductTable'},
+        children: [
+          {
+            path: '',
+            name: 'ProductTable',
+            component: () => import('@/components/product/ProductTable.vue'),
+          },
+        ],
+      },
+      {
+        path: 'new',
+        component: () => import('@/components/product/ProductFormDetailView.vue'),
+        props: {isEdit: true},
+        redirect: {name: 'product-new'},
+        children: [
+          {
+            path: '',
+            name: 'ProductNew',
+            component: () => import('@/components/product/ProductForm.vue'),
+          },
+        ],
+      },
+      {
+        path: ':productId',
+        name: 'ProductFormDetail',
+        component: () => import('@/components/product/ProductFormDetailView.vue'),
+        redirect: {name: 'ProductDetail'},
+        props: (route) => ({productId: route.params.productId, isEdit: route.meta?.isEdit}),
+        children: [
+          {
+            path: '',
+            name: 'ProductDetail',
+            component: () => import('@/components/product/ProductDetail.vue'),
+          },
+          {
+            path: 'edit',
+            name: 'ProductEdit',
+            component: () => import('@/components/product/ProductForm.vue'),
+            meta: {isEdit: true},
+          },
+        ],
       },
     ],
   },

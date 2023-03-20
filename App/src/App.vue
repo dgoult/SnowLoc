@@ -117,7 +117,7 @@ export default defineComponent({
 
     /** Title */
     const title: Ref<string> = ref(
-        import.meta.env.VITE_APP_TITLE || 'SnowLoc Vite Vuetify Application',
+        import.meta.env.VITE_APP_TITLE || 'SnowLoc Vuetify Application',
     );
     /** Drawer menu visibility */
     const drawer: Ref<boolean> = ref(false);
