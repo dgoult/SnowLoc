@@ -1,5 +1,5 @@
 # SnowLoc
-SnowLoc plateforme de gestion de location de matériel de snowboard et de ski
+SnowLoc plateforme opensource de gestion de location de matériel de snowboard et de ski
 
 # Installation
 ***
