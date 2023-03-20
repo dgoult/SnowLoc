@@ -1,5 +1,5 @@
 # SnowLoc
-SnowLoc plateforme opensource de gestion de location de matériel de snowboard et de ski
+SnowLoc plateforme de gestion de location de matériel de snowboard et de ski
 
 # Installation
 ***
@@ -45,3 +45,4 @@ GOULT Dylan Master ESI 1 JavaSpringProject
 
 Utilisations :
 -starter vutify vite vue2 https://github.com/logue/vite-vue2-vuetify-ts-starter/tree/master/src
+-DialogService by Hacksis Team
