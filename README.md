@@ -40,9 +40,15 @@ Lancer avec Inteliji avec le projet Api
 
 Lancer l'Api en exécutant le fichier ``SnowlocApplication`` sur Inteliji
 
+Et rendez-vous sur votre navigateur préférer ! Direction module matériel
+
+```
+http://localhost:5173/
+```
+***
 GOULT Dylan Master ESI 1 JavaSpringProject
 
 
 Utilisations :
--starter vutify vite vue2 https://github.com/logue/vite-vue2-vuetify-ts-starter/tree/master/src
--DialogService by Hacksis Team
+- starter vutify vite vue2 https://github.com/logue/vite-vue2-vuetify-ts-starter/tree/master/src
+- DialogService by Hacksis Team
