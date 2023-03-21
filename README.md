@@ -32,13 +32,13 @@ npm run dev
 ```
 ## Lancement du projet Back Api
 
-Lancer avec Inteliji avec le projet Api
+Lancer avec IntelliJ avec le projet Api
 
 ```
 > SnowLoc/Api
 ```
 
-Lancer l'Api en exécutant le fichier ``SnowlocApplication`` sur Inteliji
+Lancer l'Api en exécutant le fichier ``SnowlocApplication`` sur IntelliJ
 
 Et rendez-vous sur votre navigateur préférer ! Direction module matériel
 
